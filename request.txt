@@ -1,0 +1,29 @@
+{
+    "queries":[
+        {
+            "cmd": "filter",
+            "value": "GET",
+            "file_name": "apache_logs.txt"
+        },
+        {
+            "cmd": "unique",
+            "value": ""
+        },
+        {
+            "cmd": "limit",
+            "value": "100000"
+        },
+        {
+            "cmd": "sort",
+            "value": "desc1"
+        },
+        {
+            "cmd": "map",
+            "value": "6"
+        },
+        {
+            "cmd": "regex",
+            "value": "^(.+).(png|jpeg)"
+        }
+    ]
+}
